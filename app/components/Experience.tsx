@@ -36,7 +36,7 @@ const CAREER = [
   { period: "2021~2022", role: "Liiv SandBox WildRift 감독 (WCK 4위·5위, WGC 3위)" },
   { period: "2022~2024", role: "은평 메디텍 고교 E스포츠과 교사" },
   { period: "2023~2024", role: "T1 Esports Academy — LoL 프로그램 코치 (PTP·PTE·TBC X T1A 운영)" },
-  { period: "2024~2026", role: "호남대학교 E스포츠 학과 교수" },
+  { period: "2024~2026", role: "호남대학교 E스포츠 학과 LoL 전담 코치" },
 ];
 
 export default function Experience() {

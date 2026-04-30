@@ -42,11 +42,11 @@ export default function About() {
           <div className="lg:col-span-7 lg:col-start-6 space-y-6 max-w-xl">
             <p className="body-text text-pretty">
               E스포츠 업계에 13년 있었습니다.
-              프로게이머로 시작해 코치, 감독, 교수까지 한 분야에 오래 머물렀습니다.
+              프로게이머로 시작해 코치, 감독, 대학 E스포츠 학과 전담 코치까지 한 분야에 오래 머물렀습니다.
               매일 게임 메타를 뜯어보고 다음 시즌의 흐름을 예측하는 게 제 일이었습니다.
             </p>
             <p className="body-text text-pretty">
-              2026년 1월 호남대 교수 임기가 끝나면서 다음 행보를 고민했습니다.
+              2026년 1월 호남대학교 E스포츠 학과 LoL 전담 코치 임기가 끝나면서 다음 행보를 고민했습니다.
               한 분야에 오래 있다 보면 같은 분석 작업을 다른 도구로 해보고 싶다는 생각이 듭니다.
               그때 마침 AI 에이전트(Claude CLI 에이전트, Claude Cowork)가
               코드를 쓸 수 있다는 사실을 알게 됐습니다.
