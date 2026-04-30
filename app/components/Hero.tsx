@@ -33,7 +33,7 @@ export default function Hero() {
                 좋은 코드보다,
               </span>
               <span className="block text-[clamp(2.5rem,8vw,5.5rem)]">
-                좋은 <span className="text-accent">판단</span>을 만드는 일.
+                좋은 <span className="text-accent">아이디어</span>를 만드는 일.
               </span>
             </h1>
           </motion.div>
@@ -44,9 +44,7 @@ export default function Hero() {
             className="lg:col-span-6 lg:col-start-1 mt-12"
           >
             <p className="body-text text-pretty text-fg-muted">
-              13년 코칭에서 길러온 분석·정책 설계 시야로,
-              AI 에이전트가 만드는 결과물을 검증하고 정책으로 박습니다.
-              첫 프로젝트 <span className="font-mono">CookDex</span>가 출시 직전에 있습니다.
+              13년이라는 세월. 코칭으로 단련된 통찰력으로 AI 에이전트가 만드는 결과물을 검증합니다.
             </p>
           </motion.div>
 
