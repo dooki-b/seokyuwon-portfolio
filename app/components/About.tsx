@@ -39,7 +39,7 @@ export default function About() {
           </div>
 
           {/* 우측 본문 */}
-          <div className="lg:col-span-7 lg:col-start-6 space-y-6 max-w-2xl">
+          <div className="lg:col-span-7 lg:col-start-6 space-y-6 max-w-xl">
             <p className="body-text text-pretty">
               E스포츠 업계에 13년 있었습니다.
               프로게이머로 시작해 코치, 감독, 교수까지 한 분야에 오래 머물렀습니다.

@@ -113,7 +113,7 @@ export default function Strengths() {
           className="mt-24 pt-16 border-t-2 border-fg"
         >
           <h3 className="heading-display text-3xl md:text-4xl mb-10 text-balance">
-            어떤 자리에서 일하고 싶은가
+            함께하고 싶은 환경
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

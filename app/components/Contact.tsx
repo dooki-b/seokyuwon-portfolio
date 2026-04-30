@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { scrollReveal, fadeUp } from "@/app/lib/motion";
+import { scrollReveal } from "@/app/lib/motion";
 
 export default function Contact() {
   return (
@@ -19,12 +19,12 @@ export default function Contact() {
               07 / Contact
             </p>
             <h2 className="heading-display text-[clamp(2.5rem,7vw,5.5rem)] text-balance leading-[1]">
-              함께 이야기 나눠보고 싶다면<br />
+              이야기 나누고 싶으시다면<br />
               <a
                 href="mailto:koreanfu@gmail.com"
                 className="text-accent hover:underline underline-offset-8 decoration-2"
               >
-                메일 한 통 부탁드립니다.
+                편하게 메일 주세요.
               </a>
             </h2>
           </div>
@@ -58,18 +58,6 @@ export default function Contact() {
               <span className="text-fg-muted">서울 광진구</span>
             </div>
           </div>
-
-          <motion.div
-            variants={fadeUp}
-            className="lg:col-span-12 mt-16 pt-12 border-t border-divider"
-          >
-            <p className="body-text text-fg-muted text-sm md:text-base max-w-xl text-pretty">
-              포트폴리오의 어떤 부분이라도
-              구체적인 작업 내역·정책 결정·트레이드오프를 보고 싶으시다면
-              이메일로 요청해 주세요.
-              1~2일 내에 회신드리겠습니다.
-            </p>
-          </motion.div>
         </motion.div>
       </div>
     </section>

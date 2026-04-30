@@ -50,7 +50,7 @@ export default function Project() {
             <blockquote className="font-display italic text-2xl md:text-3xl text-balance border-l-2 border-accent pl-6">
               &ldquo;AI가 추천한 레시피대로 먹고 알레르기 사고가 터지면 누가 책임지지?&rdquo;
             </blockquote>
-            <p className="body-text text-pretty max-w-2xl">
+            <p className="body-text text-pretty max-w-xl">
               개발 중반쯤 마주한, 저에게 가장 무거운 질문이자 숙제였습니다.
               한국 법에는 아직 AI 콘텐츠에 대한 명확한 책임 소재가 없었습니다.
               AI 에이전트는 코드를 써줄 수 있지만,{" "}
