@@ -1,23 +1,3 @@
-import type { Metadata } from "next";
-import { Fraunces, JetBrains_Mono } from "next/font/google";
-import { GeistSans } from "geist/font/sans";
-import { Analytics } from "@vercel/analytics/react";
-import "./globals.css";
-
-const fraunces = Fraunces({
-  subsets: ["latin"],
-  variable: "--font-fraunces",
-  display: "swap",
-  weight: ["400", "500", "600", "700", "800"],
-});
-
-const jetbrainsMono = JetBrains_Mono({
-  subsets: ["latin"],
-  variable: "--font-jetbrains-mono",
-  display: "swap",
-  weight: ["400", "500", "700"],
-});
-
 export const metadata: Metadata = {
   title: "서규원 — AI 협업 PM | 13년 E스포츠 베테랑의 새 길",
   description:
@@ -51,19 +31,7 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  verification: {
+    google: "O3puzXfMHo1r74eJD44zePJdj3opGy0IHPRxusvS5MA",
+  },
 };
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="ko" className={`${fraunces.variable} ${jetbrainsMono.variable} ${GeistSans.variable}`}>
-      <body className="font-sans antialiased">
-        {children}
-        <Analytics />
-      </body>
-    </html>
-  );
-}
